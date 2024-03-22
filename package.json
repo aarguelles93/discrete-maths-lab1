@@ -1,0 +1,19 @@
+{
+  "name": "discrete-mathematics-project-1",
+  "version": "1.0.0",
+  "main": "./src/exercise1.ts",
+  "scripts": {
+    "start1": "node dist/exercise1.js",
+    "start2": "node dist/exercise2.js",
+    "start3": "node dist/exercise3.js",
+    "prestart": "npm run build",
+    "build": "tsc"
+  },
+  "author": "Andrés Argüelles",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.2"
+  }
+}
